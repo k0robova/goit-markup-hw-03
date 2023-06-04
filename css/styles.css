@@ -112,9 +112,6 @@ body {
 .section-four {
   background-color: var(--cloud-color);
 }
-.members-list {
-  background-color: var(--white-color);
-}
 
 .members-name {
   font-weight: 500;
@@ -204,4 +201,207 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+}
+/* ------------------------------------------modul 3--------------------------------- */
+/* прибрати з фото нижній зазор */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* display: flex;
+підуть у рядок елементи */
+
+/* Для того щоб задати зазор між flex-елементами, використовується властивість flex-контейнера gap.  */
+/* Властивість flex-wrap дозволяє перетворити однорядковий контейнер на багаторядковий.  */
+
+/*     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1; */
+
+/* База що скидувати. параграфи - юл */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* ---------------------HEADER---------------------------------- */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.navigation-list {
+  display: flex;
+  gap: 40px;
+}
+.navigation-link {
+  padding: 24px 0;
+  display: block;
+}
+.address {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.logo-link,
+.studio-logo {
+  margin-right: 76px;
+}
+
+/* ------MAIN-SECTION1 */
+.section-one {
+  padding: 188px 0;
+  height: 600px;
+}
+.main-title {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+.button-studio {
+  display: block;
+  width: 169px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-two {
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+  /* max-width: 264px; */
+}
+.features-list-item {
+  width: calc((100% - 72px) / 4);
+}
+.title-three {
+  margin-bottom: 8px;
+}
+/* SECTION - 3 */
+.section-tree {
+  padding-bottom: 120px;
+  text-align: center;
+}
+.title-two {
+  margin-bottom: 72px;
+}
+.our-work-list {
+  display: flex;
+  gap: 24px;
+}
+.our-work-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+.section-four {
+  padding: 120px 0;
+}
+.members-list {
+  display: flex;
+  gap: 24px;
+}
+.members-list-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+.members-name {
+  text-align: center;
+}
+.members-position {
+  text-align: center;
+  margin-top: 8px;
+}
+.members-list-box {
+  padding: 32px 16px;
+}
+/* FOOTER */
+.footer {
+  padding: 100px 0;
+}
+.logo-footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.text-footer {
+  max-width: 264px;
+}
+
+/* ___------------PORTFOLIOO */
+.section-portfolio {
+  margin-bottom: 120px;
+}
+.button-portfolio-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+.button-portfolio {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid var(--accent-color);
+  border-top: none;
+  width: 360px;
 }
