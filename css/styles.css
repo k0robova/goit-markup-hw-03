@@ -5,6 +5,7 @@
   --body-text-color: #434455;
   --white-color: #ffffff;
   --cloud-color: #f4f4fd;
+  --accent-color: #e7e9fc;
 }
 
 body {
@@ -335,6 +336,7 @@ ul {
 .section-tree {
   padding-bottom: 120px;
   text-align: center;
+  margin-bottom: 8px;
 }
 .title-two {
   margin-bottom: 72px;
@@ -355,6 +357,7 @@ ul {
 }
 .members-list-item {
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .members-name {
   text-align: center;
@@ -381,6 +384,7 @@ ul {
 /* ___------------PORTFOLIOO */
 .section-portfolio {
   margin-bottom: 120px;
+  padding: 96px 0 120px 0;
 }
 .button-portfolio-list {
   display: flex;
@@ -392,6 +396,11 @@ ul {
 .button-portfolio {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
+  padding: 12px 24px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  border: 1px solid transparent;
 }
 .portfolio-list {
   display: flex;
@@ -404,4 +413,8 @@ ul {
   border: 1px solid var(--accent-color);
   border-top: none;
   width: 360px;
+  border: 1px solid var(--accent-color);
+}
+.portfolio-title {
+  margin-bottom: 8px;
 }
