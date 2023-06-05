@@ -280,8 +280,7 @@ ul {
   gap: 40px;
 }
 
-.logo-link,
-.studio-logo {
+.logo-link {
   margin-right: 76px;
 }
 
@@ -336,7 +335,6 @@ ul {
 .section-tree {
   padding-bottom: 120px;
   text-align: center;
-  margin-bottom: 8px;
 }
 .title-two {
   margin-bottom: 72px;
@@ -384,13 +382,11 @@ ul {
 
 /* ___------------PORTFOLIOO */
 .section-portfolio {
-  margin-bottom: 120px;
   padding: 96px 0 120px 0;
 }
 .button-portfolio-list {
   display: flex;
   gap: 24px;
-  margin-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
 }
